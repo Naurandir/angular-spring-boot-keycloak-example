@@ -4,7 +4,7 @@ An example how to setup angular and spring boot together with keycloak
 ## Version
 * Angular: 17.3.4
 * Spring-Boot: 3.2.4
-* Keycloak: 24.0.3
+* Keycloak: 24.0.2
 
 ## Notice
 * I used bootstrap for a nicer top menu to make also the simple example more appealing
