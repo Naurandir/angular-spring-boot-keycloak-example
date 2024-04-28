@@ -22,6 +22,7 @@ public class JwtSecurityConfig {
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
         return http
+                .csrf(csrf -> csrf.disable())
                 .authorizeHttpRequests(
                         authorize -> authorize.requestMatchers(new AntPathRequestMatcher("/anonym"),
                                 new AntPathRequestMatcher("/swagger-ui/**"),
